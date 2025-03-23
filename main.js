@@ -196,7 +196,7 @@ class Node {
   tree.levelOrder(node => console.log(node.data));
   
   console.log("Pre Order:");
-  tree.preOrderOrder(node => console.log(node.data));
+  tree.preOrder(node => console.log(node.data));
   
   tree.insert(120);
   tree.insert(150);
